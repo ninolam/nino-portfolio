@@ -11,18 +11,18 @@ export default function Hero() {
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Developpeur
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Développeur Web
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
 
-        <div className="text-container max-w-[80%] mx-auto pt-10">
+        <div className="text-container w-full mx-auto ">
           <p
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}
+            {userData.about.titleCrop}
           </p>
         </div>
       </div>

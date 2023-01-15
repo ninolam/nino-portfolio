@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const renderMobileNav = () => {
     return (
-      <div className="space-y-12 block md:hidden h-[calc(100vh-4rem)] h-screen flex flex-col justify-center items-center">
+      <div className="space-y-12 block md:hidden h-[calc(100vh-100px)] h-screen flex flex-col justify-center items-center">
         <Link
           href="/about"
           className="text-2xl font-medium text-gray-600 dark:text-gray-300 block"
@@ -36,7 +36,7 @@ const Navbar = () => {
           href="/experience"
           className="text-2xl font-medium text-gray-600 dark:text-gray-300 block"
         >
-          Experience
+          Experiences
         </Link>
         <Link
           href="/contact"
@@ -117,7 +117,7 @@ const Navbar = () => {
               : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
           >
-            Experience{" "}
+            Experiences{" "}
             {router.asPath === "/experience" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +216,7 @@ const Navbar = () => {
             )}
           </button>
           <div onClick={() => setMenuVisible(!menuVisible)} className="space-y-2 md:hidden">
-            <div className={`${genericBurgerMenuLine} ${menuVisible ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100" : "opacity-50 group-hover:opacity-100"}`}></div>
+            <div className={`${genericBurgerMenuLine} ${menuVisible ? "rotate-45 translate-y-2 opacity-50 group-hover:opacity-100" : "opacity-50 group-hover:opacity-100"}`}></div>
             <div className={`${genericBurgerMenuLine} ${menuVisible ? "opacity-0" : "opacity-50 group-hover:opacity-100"}`}></div>
             <div className={`${genericBurgerMenuLine} ${menuVisible ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100" : "opacity-50 group-hover:opacity-100"}`}></div>
           </div>

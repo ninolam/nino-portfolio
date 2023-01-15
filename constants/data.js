@@ -27,6 +27,8 @@ const userData = {
     },
   ],
   about: {
+    titleCrop:
+      "français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs",
     title:
       "Développeur web français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs",
     description: [
