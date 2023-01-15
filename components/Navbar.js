@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const renderMobileNav = () => {
     return (
-      <div className="space-y-12 block md:hidden h-[calc(100vh-100px)] h-screen flex flex-col justify-center items-center">
+      <div className="space-y-12 block md:hidden h-[calc(100vh-100px)] flex flex-col justify-center items-center">
         <Link
           href="/about"
           className="text-2xl font-medium text-gray-600 dark:text-gray-300 block"
