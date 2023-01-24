@@ -43,7 +43,7 @@ const userData = {
       title: "Front End Developer- Freelance",
       company: "Solidarité Start Up",
       year: "2022",
-      companyLink: "https://solidarite-start-up.com",
+      companyLink: "https://solidarite-start-up.fr",
       desc: "Création de site de A à Z, du design au dev (front et back). <br> Stack technique: React/Redux, Firebase, Stripe.",
     },
     {
@@ -57,7 +57,7 @@ const userData = {
       title: "Alternance",
       company: "Agence And After",
       year: "2019",
-      companyLink: "https://knr.paris/",
+      companyLink: "https://www.andafter.fr/fr-fr/",
       desc: "En tant que développeur front-end et webmaster, j'ai travaillé sur des sites e-commerce tels que Pierre Ricaud, Daniel Jouvance, Le Bourget et Linvosges.",
     },
     {
