@@ -37,6 +37,25 @@ export default function FavouriteProjects() {
           {/* Single card */}
           <a
             target="_blank"
+            href="https://www.orelaxation.com/"
+            className="w-full block col-span-3 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/orelaxation.jpg"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                O'relaxation
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                01
+              </h1>
+            </div>
+          </a>
+          <a
+            target="_blank"
             href="https://solidarite-start-up.fr"
             className="w-full block col-span-3 shadow-2xl"
           >
@@ -50,7 +69,7 @@ export default function FavouriteProjects() {
                 Solidarité Start-Up
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
+                02
               </h1>
             </div>
           </a>
@@ -69,7 +88,7 @@ export default function FavouriteProjects() {
                 Qobuz
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
+                03
               </h1>
             </div>
           </a>
@@ -88,7 +107,7 @@ export default function FavouriteProjects() {
                 Portfolio
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
+                04
               </h1>
             </div>
           </a>

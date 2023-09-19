@@ -8,6 +8,11 @@ const userData = {
   address: "Paris, France.",
   projects: [
     {
+      title: "O'relaxation",
+      link: "https://www.orelaxation.com/",
+      imgUrl: "/orelaxation.jpg",
+    },
+    {
       title: "Solidarité Start-Up",
       link: "https://solidarite-start-up.fr",
       imgUrl: "/solidarite.png",
