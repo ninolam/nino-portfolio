@@ -9,7 +9,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
   const meta = {
     title: "Nino Lamoureux - Front End Developer",
-    description: `Développeur web français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs`,
+    description: `Développeur front-end passionné, je mets mon expertise au service du succès des projets web avec une appétance particulière pour le responsive design`,
     image: "/nino-1.jpeg",
     type: "website",
     ...customMeta,

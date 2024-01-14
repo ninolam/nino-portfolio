@@ -39,10 +39,10 @@ export default function Contact() {
           <div className="md:ml-4">
             <header className="">
               <h1 className="font-semibold text-2xl">
-              N'hésitez pas à me contacter pour discuter de votre projet.
+              Feel free to contact me to discuss your project. 
               </h1>
               <p className="font-light text-base mt-2 max-w-[80%]">
-              Je vous répondrai le plus vite possible !
+              I will respond as soon as possible!
               </p>
             </header>
             <div className="icons-container inline-flex flex-col my-20">
@@ -99,7 +99,7 @@ export default function Contact() {
           <form onSubmit={handleOnSubmit} className="form rounded-lg dark:bg-gray-800 bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
-              Votre Nom
+              Name
             </label>
             <input
               type="text"
@@ -130,7 +130,7 @@ export default function Contact() {
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
-              Envoyer le message
+              Send message
             </button>
           </form>
         </div>

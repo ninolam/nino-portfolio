@@ -6,7 +6,7 @@ export default function AboutMe() {
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          À Propos.
+          About me.
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
@@ -28,15 +28,15 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Je suis actuellement à la recherche d'une mission en freelance. <br />
-                Si vous pensez que mes compétences et mon expérience correspondent à vos besoins,{" "} <a
+              I'am currently looking for freelance opportunities. <br />
+              If you believe that my skills and experience align with your needs,{" "} <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >contactez-moi</a>.
+                >contact me</a>.
               </p>
             </div>
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
-              Liens utiles
+              Usefull links
             </h1>
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center">

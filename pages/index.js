@@ -6,7 +6,8 @@ export default function Home() {
   return (
     <ContainerBlock
       title="Nino Lamoureux - Front End Developer"
-      description="Développeur web français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs"
+      description="Passionate front-end developer with a keen eye for responsive design and pixel perfection.
+      Let's bring your projects to life with some good vibes and energy! 🚀"
     >
       <Hero />
       <FavouriteProjects />

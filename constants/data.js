@@ -3,9 +3,9 @@ const userData = {
   name: "Nino Lamoureux",
   designation: "Front End Developer",
   avatarUrl: "/nino-3.jpeg",
-  email: "lamoureux.nino@gmail.com",
+  email: "nino.lmx.pro@gmail.com",
   phone: "06 46 13 45 34",
-  address: "Paris, France.",
+  address: "Houilles, France.",
   projects: [
     {
       title: "O'relaxation",
@@ -32,16 +32,12 @@ const userData = {
     },
   ],
   about: {
-    titleCrop:
-      "français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs",
     title:
-      "Développeur web français avec plusieurs années d'expériences, spécialisé dans le Front End et principalement en React/Nextjs",
+      "Passionate front-end developer with a keen eye for responsive design and pixel perfection. Let's bring your projects to life with some good vibes and energy! 🚀",
     description: [
-      `Avec une sensibilité pour le responsive design et les animations, je suis passionné par les technologies les plus récentes et j'aime créer des expériences utilisateur intuitives et performantes pour les utilisateurs.`,
-      `Certaines des technologies que j'utilise: React/Redux, TypeScript, SCSS, Bootstrap, Tailwind, Node.js, Firebase, Git/Github.`,
-    ],
-    currentProject: "Solidarité Start Up",
-    currentProjectUrl: "http://solidarite-start-up.fr/",
+      `With a sensitivity for responsive design and animations, I am passionate about the latest technologies and enjoy crafting intuitive and high-performing user experiences.      `,
+      `The technologies I use: React/Redux, TypeScript, SCSS, Bootstrap, Tailwind, Firebase, GraphQL, Git/Github.`,
+    ]
   },
   experience: [
     {
