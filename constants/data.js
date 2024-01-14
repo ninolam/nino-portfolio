@@ -33,7 +33,7 @@ const userData = {
   ],
   about: {
     title:
-      "Passionate front-end developer with a keen eye for responsive design and pixel perfection. Let's bring your projects to life with some good vibes and energy! 🚀",
+      "Passionate front-end developer with a keen eye for responsive design and user experience. Let's bring your projects to life with some good vibes and energy! 🚀",
     description: [
       `With a sensitivity for responsive design and animations, I am passionate about the latest technologies and enjoy crafting intuitive and high-performing user experiences.      `,
       `The technologies I use: React/Redux, TypeScript, SCSS, Bootstrap, Tailwind, Firebase, GraphQL, Git/Github.`,
