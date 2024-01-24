@@ -8,6 +8,11 @@ const userData = {
   address: "Houilles, France.",
   projects: [
     {
+      title: "Qobuz",
+      link: "https://play.qobuz.com",
+      imgUrl: "/qobuz.png",
+    },
+    {
       title: "O'relaxation",
       link: "https://www.orelaxation.com/",
       imgUrl: "/orelaxation.jpg",
@@ -16,11 +21,6 @@ const userData = {
       title: "Solidarité Start-Up",
       link: "https://solidarite-start-up.fr",
       imgUrl: "/solidarite.png",
-    },
-    {
-      title: "Qobuz",
-      link: "https://play.qobuz.com",
-      imgUrl: "/qobuz.png",
     },
     {
       title: "Portfolio",
