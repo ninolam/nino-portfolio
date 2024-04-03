@@ -7,7 +7,7 @@ export default function FavouriteProjects() {
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
-            Recents projects
+            Favourite Projects
           </h1>
           <Link
             href="/projects"
@@ -56,6 +56,26 @@ export default function FavouriteProjects() {
           </a>
           <a
             target="_blank"
+            href="https://www.inrealart.com/"
+
+            className="w-full block col-span-3 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/IRA.png"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                In Real Art
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                02
+              </h1>
+            </div>
+          </a>
+          <a
+            target="_blank"
             href="https://www.orelaxation.com/"
 
             className="w-full block col-span-3 shadow-2xl"
@@ -70,7 +90,7 @@ export default function FavouriteProjects() {
                 O'relaxation
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
+                03
               </h1>
             </div>
           </a>
@@ -87,25 +107,6 @@ export default function FavouriteProjects() {
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Solidarité Start-Up
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
-              </h1>
-            </div>
-          </a>
-          <a
-            href="#"
-            className="w-full block col-span-3 sm:col-span-1  object-cover"
-          >
-            <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/portfolio.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Portfolio
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 04

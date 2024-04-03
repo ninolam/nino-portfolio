@@ -5,8 +5,12 @@ const userData = {
   avatarUrl: "/nino-3.jpeg",
   email: "nino.lmx.pro@gmail.com",
   phone: "06 46 13 45 34",
-  address: "Houilles, France.",
   projects: [
+    {
+      title: "In Real Art",
+      link: "https://www.inrealart.com/",
+      imgUrl: "/IRA.png"
+    },
     {
       title: "Qobuz",
       link: "https://play.qobuz.com",
@@ -21,11 +25,6 @@ const userData = {
       title: "Solidarité Start-Up",
       link: "https://solidarite-start-up.fr",
       imgUrl: "/solidarite.png",
-    },
-    {
-      title: "Portfolio",
-      link: "#",
-      imgUrl: "/portfolio.png",
     },
     {
       title: "Votre Projet ?"

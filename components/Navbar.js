@@ -33,14 +33,6 @@ const Navbar = () => {
           Projects
         </Link>
         <Link
-          download
-          href="/CV.pdf" 
-          locale={false}
-          className="text-2xl font-medium text-gray-600 dark:text-gray-300 block"
-        >
-          CV
-        </Link>
-        <Link
           href="/contact"
           className="text-2xl font-medium text-gray-600 dark:text-gray-300 block"
         >
@@ -111,14 +103,6 @@ const Navbar = () => {
                 />
               </svg>
             )}
-          </Link>
-          <Link
-            download
-            href="/CV.pdf" 
-            locale={false}  
-            className="text-gray-600 dark:text-gray-300 font-normal "
-          >
-            CV
           </Link>
           <Link
             href="/contact"
